@@ -7,3 +7,43 @@
     font-family: arial,sans-serif;
     color: #222;
 }
+.upper-right{
+    min-width: 220px;
+    float:right;
+    display:flex;
+    flex: 0 0 auto;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height:48px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.links_gmail_imgs{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+}
+.links_app_profile {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+a {
+color: #222;
+text-decoration: none;
+}
+
+.link_gmail{
+    padding: 10px;
+}
+.link_imgs{
+    padding: 10px;
+}
