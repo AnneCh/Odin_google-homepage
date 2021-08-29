@@ -6,6 +6,7 @@
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
+    position:relative;
 }
 .upper-right{
     min-width: 220px;
@@ -61,4 +62,8 @@ text-decoration: none;
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+/*google logo*/
+.main-div-logo{
+
 }
