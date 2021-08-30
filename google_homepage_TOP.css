@@ -4,6 +4,8 @@
 
 .navbar{
     font-size: 14px;
+    min-width: auto;
+    height: 48px;
     font-family: arial,sans-serif;
     color: #222;
     position:relative;
@@ -64,6 +66,14 @@ text-decoration: none;
     border-radius: 50%;
 }
 /*google logo*/
-.main-div-logo{
 
+.main-div-logo{
+display:block;
+align-items: center;
+margin: 200px;
+}
+
+.logo {
+    position:relative;
+    align-self: center;
 }
