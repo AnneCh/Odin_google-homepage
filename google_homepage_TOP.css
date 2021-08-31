@@ -49,11 +49,11 @@ text-decoration: none;
     padding: 10px;
 }
 .link_imgs{
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     border-radius: 50%;
 }
 .app img{
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
     display:block;
     height: 25px;
     width: 25px;
@@ -69,11 +69,27 @@ text-decoration: none;
 
 .main-div-logo{
 display:block;
-align-items: center;
-margin: 200px;
+text-align: center;
+height: 100px;
+margin-top: 83px;
 }
 
 .logo {
     position:relative;
-    align-self: center;
 }
+
+/*searchbar*/
+
+.searchbar{
+    display:flex;
+    position:relative;
+    align-items: center;
+}
+
+ #searchbar{
+     display:flex;
+     height:34px;
+     position:relative;
+     border-radius:24px;
+     color: dimgray;
+ }
