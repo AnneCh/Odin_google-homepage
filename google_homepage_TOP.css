@@ -99,15 +99,18 @@ margin-top: 83px;
      border-radius:20px;
      border: 1px solid #dfe1e5;
      color: dimgray;
+     background: url(/baseline_search_black_24dp.png), url(/micgoogle.png);
+     background-position: left, right;
+     background-size: auto, contain;
+     background-repeat: no-repeat, no-repeat;
  }
 
- 
+::placeholder{
+    padding-left: 30px;
+}
 
- .magnifying{
-     display:flex;
- }
 
  .mic{
      display:flex;
-     justify-content: flex-end;
+     justify-content: right;
  }
