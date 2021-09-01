@@ -1,7 +1,11 @@
 
+body{height:100%;}
 
-
-
+.wrapper{
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+}
 .navbar{
     font-size: 14px;
     min-width: auto;
@@ -69,6 +73,8 @@ text-decoration: none;
 .main{
     display: block;
     text-align: center;
+    position:relative;
+    height:1fr;
 }
 
 /*google logo*/
@@ -129,4 +135,28 @@ margin-top: 83px;
     height: 34px;
     text-align: center;
     cursor:grab;
+}
+
+.footers{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color:#222;
+}
+ul{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+}
+
+li{
+    text-decoration-style: none;
+    padding:1rem;
 }
