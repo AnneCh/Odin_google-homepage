@@ -65,6 +65,12 @@ text-decoration: none;
     width: 40px;
     border-radius: 50%;
 }
+
+.main{
+    display: block;
+    text-align: center;
+}
+
 /*google logo*/
 
 .main-div-logo{
@@ -81,15 +87,27 @@ margin-top: 83px;
 /*searchbar*/
 
 .searchbar{
-    display:flex;
-    position:relative;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
  #searchbar{
-     display:flex;
-     height:34px;
+     height:39px;
+     width: 487px;
      position:relative;
-     border-radius:24px;
+     border-radius:20px;
+     border: 1px solid #dfe1e5;
      color: dimgray;
+ }
+
+ 
+
+ .magnifying{
+     display:flex;
+ }
+
+ .mic{
+     display:flex;
+     justify-content: flex-end;
  }
