@@ -101,16 +101,22 @@ margin-top: 83px;
      color: dimgray;
      background: url(/baseline_search_black_24dp.png), url(/micgoogle.png);
      background-position: left, right;
-     background-size: auto, contain;
+     background-size: auto, 30px;
      background-repeat: no-repeat, no-repeat;
  }
 
 ::placeholder{
-    padding-left: 30px;
+    padding-left:25px;
 }
 
+.buttons{
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 3rem;;
+}
 
- .mic{
-     display:flex;
-     justify-content: right;
- }
+button{
+margin: 3rem;
+padding: 3rem;
+}
